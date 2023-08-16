@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4458764f-cea5-4520-b9e0-019605c8de45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4458764f-cea5-4520-b9e0-019605c8de45" name="Default Changelist" comment="finished the first part just need to handle exceptions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HammingJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HammingJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/zipcode/Hamming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/zipcode/zipcode/Hamming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/zipcode/HammingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/zipcode/zipcode/HammingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/zipcode/zipcode/Hamming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/zipcode/zipcode/Hamming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/zipcode/zipcode/HammingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/zipcode/zipcode/HammingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,20 +152,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
-    "last_directory_selection": "/Users/santos/LocalPros/Week 6/HammingItUpJava/src/test/zipcode",
-    "last_opened_file_path": "/Users/santos/LocalPros/Week 6/HammingItUpJava",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit3&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/santos/LocalPros/Week 6/HammingItUpJava/src/test/zipcode&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/santos/LocalPros/Week 6/HammingItUpJava&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="java" />
@@ -191,6 +186,22 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HammingTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HammingJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zipcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zipcode" />
+      <option name="MAIN_CLASS_NAME" value="zipcode.HammingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -237,6 +248,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HammingTest.testValidatesFirstStrandNotLonger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HammingJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zipcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zipcode" />
+      <option name="MAIN_CLASS_NAME" value="zipcode.HammingTest" />
+      <option name="METHOD_NAME" value="testValidatesFirstStrandNotLonger" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -265,6 +293,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.HammingTest (1)" />
+        <item itemvalue="JUnit.HammingTest.testValidatesFirstStrandNotLonger" />
         <item itemvalue="JUnit.HammingTest (2)" />
         <item itemvalue="JUnit.HammingTest" />
       </list>
@@ -284,6 +313,15 @@
       <workItem from="1573054128455" duration="1124000" />
       <workItem from="1573055514433" duration="709000" />
     </task>
+    <task id="LOCAL-00001" summary="finished the first part just need to handle exceptions">
+      <option name="closed" value="true" />
+      <created>1692209353929</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692209353929</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -365,6 +403,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finished the first part just need to handle exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished the first part just need to handle exceptions" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/HmmingTest.java" />

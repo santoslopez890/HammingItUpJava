@@ -90,7 +90,7 @@ public class HammingTest {
     public void testValidatesSecondStrandNotLonger() {
         expectedException.expect(IllegalArgumentException.class);
         expectedException.expectMessage("leftStrand and rightStrand must be of equal length.");
-
+        //exception gets thrown at creation of object
         new Hamming("ATA", "AGTG");
     }
 
